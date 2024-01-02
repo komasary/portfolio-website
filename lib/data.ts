@@ -115,7 +115,7 @@ export const projectsData = [
   {
     title: "United Nations",
     description:
-        "Responsible for Architecture/schema design, ETL processes, data pipeline optimization and monitoring, AI/ML model deployment",
+        "Responsible for Architecture/schema design, ETL processes, data pipeline optimization and monitoring, AI/ML model deployment.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: UnitedN,
   },
