@@ -5,6 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import UnitedN from "@/public/UnitedN.png";
+
+
 
 export const links = [
   {
@@ -61,14 +64,26 @@ export const experiencesData = [
   },
 
 
+
   {
     title: "Web Developer",
     location: "Remote",
     description:
       "I am currently a developer for Ally Bank where I'm responsible for converting processes from existing outsourced COTs environments to an Outsystems low code internal environment using Outsystems, SQL, JavaScript, Java.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2022 - 2023",
   },
+
+
+  {
+    title: "Computer Engineer",
+    location: "Biodiversity International HQ Rome",
+    description:
+        " Responsible for coordinating with the CGIAR Hub for Sustainable Finance (Impact SF), ensuring deliverables are met in a timely manner.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Present",
+  },
+
 ] as const;
 
 export const projectsData = [
@@ -95,6 +110,20 @@ export const projectsData = [
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
+
+
+  {
+    title: "United Nations",
+    description:
+        "Responsible for Architecture/schema design, ETL processes, data pipeline optimization and monitoring, AI/ML model deployment",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    imageUrl: UnitedN,
+  },
+
+
+
+
+
 ] as const;
 
 export const skillsData = [
