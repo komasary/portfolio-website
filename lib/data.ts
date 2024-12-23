@@ -7,8 +7,6 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import UnitedN from "@/public/UnitedN.png";
 
-
-
 export const links = [
   {
     name: "Home",
@@ -38,112 +36,68 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "University at Buffalo",
-    location: "Buffalo, NY",
-    description:
-      "I graduated in 2019. I immediately found a job after completing my internship in Blockchain.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Software Developer",
-    location: "Denver, CO",
-    description:
-      " I was responsible for creating user-friendly GUI interface using HTML5, CSS3, jQuery, Angular, NodeJS, AJAX, XML and JSON for DISH NATION",
+    title: "Data Engineer",
+    location: "Detroit, Michigan",
+    description: "Promoted to data engineer from software engineer. Optimized cloud-based data pipelines for financial data processing using AWS services like S3, AWS Glue, and Redshift. Developed ETL workflows, implemented real-time data processing with Kinesis, created financial dashboards with AWS Quicksight, and migrated legacy systems to cloud architecture, reducing costs by 25%.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2021",
+    date: "2022 - Present",
   },
-
   {
-    title: "Computer Engineer",
-    location: "Seattle, WA",
-    description:
-        " I was responsible for maintaining customer support application which used  HTML5, CSS3, jQuery, Angular, NodeJS, SpringBoot, XML and JSON for the Boeing Company",
+    title: "Data Engineer",
+    location: "Seattle, Washington",
+    description: "Developed and optimized data pipelines for large-scale aerospace datasets at Boeing using AWS services. Built ETL processes, implemented real-time data processing, and designed business intelligence dashboards to provide insights for aerospace engineers and executives, improving decision-making speed by 80%.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
-
-
-
   {
-    title: "Web Developer",
-    location: "Remote",
-    description:
-      "I am currently a developer for Ally Bank where I'm responsible for converting processes from existing outsourced COTs environments to an Outsystems low code internal environment using Outsystems, SQL, JavaScript, Java.",
-    icon: React.createElement(FaReact),
-    date: "2022 - 2023",
+    title: "Software Developer Intern",
+    location: "Englewood, Colorado",
+    description: "Designed and implemented a web application using Java, Spring Framework, JPA, SQL, XML, and JSP. Optimized database queries and utilized Spring MVC to promote code reusability and streamline testing.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020 - 2021",
   },
-
-
   {
-    title: "Computer Engineer",
-    location: "Biodiversity International HQ Rome",
-    description:
-        " Responsible for coordinating with the CGIAR Hub for Sustainable Finance (Impact SF), ensuring deliverables are met in a timely manner.",
+    title: "Data Engineer",
+    location: "United Nations",
+    description: "Responsible for architecture/schema design, ETL processes, data pipeline optimization, monitoring, and AI/ML model deployment for global sustainability projects.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - Present",
   },
-
 ] as const;
 
 export const projectsData = [
   {
-    title: "CMES Boeing",
-    description:
-      "I worked as a full-stack developer on this application which was responsible for Boeing 787 safety and maintenance. ",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    title: "Cloud Data Warehouse for Financial Transactions",
+    description: "Developed a real-time financial data processing pipeline using AWS Glue and Redshift, increasing operational efficiency by 20%. Implemented Kinesis Data Firehose to support real-time analysis of financial transactions.",
+    tags: ["AWS Glue", "Redshift", "Kinesis", "Real-Time Data"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "Ontech Services",
-    description:
-      "I was the front-end developer. Customers would use our websites to place maintenance order for Dish Nation.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    title: "Business Intelligence Dashboard for Aerospace Operations",
+    description: "Designed an automated reporting system using AWS Quicksight, reducing manual report generation by 80%. Integrated various aerospace data sources for near-real-time insights.",
+    tags: ["AWS Quicksight", "ETL", "Real-Time Analytics"],
     imageUrl: rmtdevImg,
   },
-
-
-  {
-    title: "Ally Black Ops",
-    description:
-      "Developer on converting processes from existing outsourced COTs environments to an Outsystems low code internal environment using Outsystems, SQL, JavaScript, Java.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
-
-
-  {
-    title: "United Nations",
-    description:
-        "Responsible for Architecture/schema design, ETL processes, data pipeline optimization and monitoring, AI/ML model deployment.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: UnitedN,
-  },
-
-
-
-
-
 ] as const;
 
 export const skillsData = [
+  "Python",
+  "SQL",
+  "Java",
+  "AWS",
+  "Databricks",
+  "Apache Spark",
+  "Glue Crawler",
+  "Kinesis Data Firehose",
+  "Terraform",
+  "Docker",
+  "Jenkins",
+  "Redshift",
+  "AWS Glue",
+  "AWS Quicksight",
   "HTML",
   "CSS",
   "JavaScript",
-  "XML",
   "React",
-  "Next.js",
   "Node.js",
-  "Git",
-  "Oracle",
-  "MS SQL",
-  "Java",
-  "AWS",
-  "Outsystems",
-  "RESTful API",
-  "Elastic Beanstalk",
-  "Elastic Search",
-  "Maven",
-  "Spring MVC",
-  "Framer Motion",
 ] as const;
