@@ -96,7 +96,7 @@ export const projectsData = [
     imageUrl: wordanalyticsImg,
   },
   {
-    title: "AI/ML Pipelines for Global Sustainability Projects",
+    title: "AI/ML Pipelines for Global Projects",
     description:
         "Developed data pipelines and deployed AI/ML models for sustainability projects and ETL optimization for global-scale initiatives at the United Nations.",
     tags: ["AI/ML", "ETL", "Global Data"],
