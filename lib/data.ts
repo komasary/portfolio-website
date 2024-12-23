@@ -73,14 +73,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Cloud Data Warehouse for Financial Transactions",
+    title: "Warehouse for Financial Transactions",
     description:
         "Developed a real-time financial data pipeline using AWS Glue and Redshift, increasing operational efficiency by 20%.",
     tags: ["AWS Glue", "Redshift", "Kinesis", "Real-Time Data"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "Business Intelligence Dashboard for Aerospace Operations",
+    title: "Dashboard for Aerospace Operations",
     description:
         "Designed a reporting system using AWS Quicksight, reducing manual efforts by 80%.",
     tags: ["AWS Quicksight", "ETL", "Real-Time Analytics"],
@@ -89,7 +89,7 @@ export const projectsData = [
 
 
   {
-    title: "Data Migration and Low-Code Solutions for Banking",
+    title: "Data Migration for Banking",
     description:
         "Enhanced data pipelines and optimized workflows, reducing operational overhead by 25%.",
     tags: ["Outsystems", "SQL", "Java", "Low-Code"],
