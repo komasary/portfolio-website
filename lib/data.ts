@@ -35,13 +35,22 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+
+  {
+    title: "Data Engineer",
+    location: "United Nations",
+    description:
+        "Led schema design, ETL optimization, and AI/ML deployment for global sustainability initiatives, driving data-driven insights on impactful projects.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Present",
+  },
   {
     title: "Data Engineer",
     location: "Detroit, Michigan",
     description:
         "Promoted from software engineer to optimize financial data pipelines with AWS services. Developed ETL workflows, real-time processing with Kinesis, and dashboards using Quicksight, reducing costs by 25%.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - Present",
+    date: "2022 - 2023",
   },
   {
     title: "Data Engineer",
@@ -59,14 +68,7 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2021",
   },
-  {
-    title: "Data Engineer",
-    location: "United Nations",
-    description:
-        "Led schema design, ETL optimization, and AI/ML deployment for global sustainability initiatives, driving data-driven insights on impactful projects.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023 - Present",
-  },
+
 ] as const;
 
 export const projectsData = [
