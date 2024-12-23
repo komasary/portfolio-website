@@ -92,7 +92,7 @@ export const projectsData = [
     title: "Data Migration for Banking",
     description:
         "Enhanced data pipelines and optimized workflows, reducing operational overhead by 25%.",
-    tags: ["Outsystems", "SQL", "Java", "Low-Code"],
+    tags: ["DMS", "Glue", "RedShift", "Kinesis", "KMS"],
     imageUrl: wordanalyticsImg,
   },
   {
