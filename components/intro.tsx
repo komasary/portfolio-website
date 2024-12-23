@@ -61,14 +61,15 @@ export default function Intro() {
 
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
+        initial={{ "opacity": 0, "y": 100 }}
+        animate={{ "opacity": 1, "y": 0 }}
       >
         <span className="font-bold">Hello, I'm Komas.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> based{" "}
-        <span className="font-bold">in New York</span>. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">Java / J2EE technologies </span>.
+        <span className="font-bold">Data Engineer</span> based{" "}
+        <span className="font-bold">in New York</span>. I specialize in{" "}
+        <span className="italic">building scalable data pipelines</span> and{" "}
+        <span className="italic">cloud-based solutions</span>. My focus is{" "}
+        <span className="underline">AWS and real-time analytics</span>.
       </motion.h1>
 
       <motion.div

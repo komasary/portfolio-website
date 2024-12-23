@@ -40,7 +40,7 @@ export const experiencesData = [
     title: "Data Engineer",
     location: "United Nations",
     description:
-        "Led schema design, ETL optimization, and AI/ML deployment for global sustainability initiatives, driving data-driven insights on impactful projects.",
+        "Led schema design, ETL optimization, and AI deployment for global sustainability initiatives, driving data-driven insights on impactful projects.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - Present",
   },
