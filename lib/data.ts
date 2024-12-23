@@ -75,14 +75,14 @@ export const projectsData = [
   {
     title: "Cloud Data Warehouse for Financial Transactions",
     description:
-        "Developed a real-time financial data pipeline using AWS Glue and Redshift, increasing operational efficiency by 20%. Integrated Kinesis for transaction analysis and automated data aggregation workflows.",
+        "Developed a real-time financial data pipeline using AWS Glue and Redshift, increasing operational efficiency by 20%.",
     tags: ["AWS Glue", "Redshift", "Kinesis", "Real-Time Data"],
     imageUrl: corpcommentImg,
   },
   {
     title: "Business Intelligence Dashboard for Aerospace Operations",
     description:
-        "Designed a reporting system using AWS Quicksight, reducing manual efforts by 80%. Unified diverse aerospace data sources to deliver real-time insights for engineers and executives.",
+        "Designed a reporting system using AWS Quicksight, reducing manual efforts by 80%.",
     tags: ["AWS Quicksight", "ETL", "Real-Time Analytics"],
     imageUrl: rmtdevImg,
   },
@@ -91,14 +91,14 @@ export const projectsData = [
   {
     title: "Data Migration and Low-Code Solutions for Banking",
     description:
-        "Converted banking processes to low-code systems using Outsystems, SQL, and Java. Enhanced data pipelines and optimized workflows, reducing operational overhead by 25%.",
+        "Enhanced data pipelines and optimized workflows, reducing operational overhead by 25%.",
     tags: ["Outsystems", "SQL", "Java", "Low-Code"],
     imageUrl: wordanalyticsImg,
   },
   {
     title: "AI/ML Pipelines for Global Sustainability Projects",
     description:
-        "Developed data pipelines and deployed AI/ML models for sustainability projects at the United Nations. Led schema design and ETL optimization for global-scale initiatives.",
+        "Developed data pipelines and deployed AI/ML models for sustainability projects and ETL optimization for global-scale initiatives at the United Nations.",
     tags: ["AI/ML", "ETL", "Global Data"],
     imageUrl: UnitedN,
 
