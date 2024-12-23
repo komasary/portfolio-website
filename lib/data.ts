@@ -38,28 +38,32 @@ export const experiencesData = [
   {
     title: "Data Engineer",
     location: "Detroit, Michigan",
-    description: "Promoted to data engineer from software engineer. Optimized cloud-based data pipelines for financial data processing using AWS services like S3, AWS Glue, and Redshift. Developed ETL workflows, implemented real-time data processing with Kinesis, created financial dashboards with AWS Quicksight, and migrated legacy systems to cloud architecture, reducing costs by 25%.",
+    description:
+        "Promoted from software engineer to optimize financial data pipelines with AWS services. Developed ETL workflows, real-time processing with Kinesis, and dashboards using Quicksight, reducing costs by 25%.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - Present",
   },
   {
     title: "Data Engineer",
     location: "Seattle, Washington",
-    description: "Developed and optimized data pipelines for large-scale aerospace datasets at Boeing using AWS services. Built ETL processes, implemented real-time data processing, and designed business intelligence dashboards to provide insights for aerospace engineers and executives, improving decision-making speed by 80%.",
+    description:
+        "Optimized aerospace data pipelines at Boeing using AWS Glue and Redshift. Built ETL workflows, integrated real-time processing, and created business intelligence dashboards, boosting decision-making efficiency.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
   {
     title: "Software Developer Intern",
     location: "Englewood, Colorado",
-    description: "Designed and implemented a web application using Java, Spring Framework, JPA, SQL, XML, and JSP. Optimized database queries and utilized Spring MVC to promote code reusability and streamline testing.",
+    description:
+        "Designed a web app using Java, Spring Framework, and SQL. Streamlined database queries and promoted reusable, testable code with Spring MVC.",
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2021",
   },
   {
     title: "Data Engineer",
     location: "United Nations",
-    description: "Responsible for architecture/schema design, ETL processes, data pipeline optimization, monitoring, and AI/ML model deployment for global sustainability projects.",
+    description:
+        "Led schema design, ETL optimization, and AI/ML deployment for global sustainability initiatives, driving data-driven insights on impactful projects.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - Present",
   },
@@ -68,15 +72,31 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Cloud Data Warehouse for Financial Transactions",
-    description: "Developed a real-time financial data processing pipeline using AWS Glue and Redshift, increasing operational efficiency by 20%. Implemented Kinesis Data Firehose to support real-time analysis of financial transactions.",
+    description:
+        "Developed a real-time financial data pipeline using AWS Glue and Redshift, increasing operational efficiency by 20%. Integrated Kinesis for transaction analysis and automated data aggregation workflows.",
     tags: ["AWS Glue", "Redshift", "Kinesis", "Real-Time Data"],
     imageUrl: corpcommentImg,
   },
   {
     title: "Business Intelligence Dashboard for Aerospace Operations",
-    description: "Designed an automated reporting system using AWS Quicksight, reducing manual report generation by 80%. Integrated various aerospace data sources for near-real-time insights.",
+    description:
+        "Designed a reporting system using AWS Quicksight, reducing manual efforts by 80%. Unified diverse aerospace data sources to deliver real-time insights for engineers and executives.",
     tags: ["AWS Quicksight", "ETL", "Real-Time Analytics"],
     imageUrl: rmtdevImg,
+  },
+  {
+    title: "Data Migration and Low-Code Solutions for Banking",
+    description:
+        "Converted banking processes to low-code systems using Outsystems, SQL, and Java. Enhanced data pipelines and optimized workflows, reducing operational overhead by 25%.",
+    tags: ["Outsystems", "SQL", "Java", "Low-Code"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "AI/ML Pipelines for Global Sustainability Projects",
+    description:
+        "Developed data pipelines and deployed AI/ML models for sustainability projects at the United Nations. Led schema design and ETL optimization for global-scale initiatives.",
+    tags: ["AI/ML", "ETL", "Global Data"],
+    imageUrl: UnitedN,
   },
 ] as const;
 
