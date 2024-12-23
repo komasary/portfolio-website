@@ -101,7 +101,7 @@ export const projectsData = [
         "Developed data pipelines and deployed AI/ML models for sustainability projects at the United Nations. Led schema design and ETL optimization for global-scale initiatives.",
     tags: ["AI/ML", "ETL", "Global Data"],
     imageUrl: UnitedN,
-    layout: "full-screen"
+
 
   },
 ] as const;
