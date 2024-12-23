@@ -19,23 +19,19 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After enrolling for a degree in{" "}
-        <span className="font-medium">Computer Engineering</span> in University at Buffalo to pursue my
-        passion for programming. I completed my degree in 2019 where I familiarized myself with{" "}
-        <span className="font-medium">Java/J2EE technologies, full stack web development, cloud computing, and server deployment</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem.
-
+        After earning a degree in{" "}
+        <span className="font-medium">Computer Engineering</span> from the University at Buffalo in 2019, I developed a deep passion for{" "}
+        <span className="font-medium">solving complex data challenges</span>. My academic journey and professional experience have equipped me with expertise in{" "}
+        <span className="font-medium">cloud computing, data pipeline optimization, and scalable data architecture using technologies like AWS and Python</span>.{" "}
+        <span className="italic">My favorite part of data engineering</span> is the problem-solving aspect. I{" "}
+        <span className="underline">thrive</span> on designing efficient ETL workflows and implementing real-time analytics solutions.
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy watching
-        sports, binge watching mafia movies, and playing my guitar while humming along. I also enjoy{" "}
-        <span className="font-medium">learning different languages to understand different cultures</span>. I am currently
-        learning {" "}
-        <span className="font-medium">dutch and also refreshing my spanish.</span>. I also enjoy  boxing in the ring, when
-        I am not busy with my Engineering.
+        <span className="italic">When I'm not working</span>, I enjoy boxing, understanding music theory to play guitar and piano, and immersing myself in diverse cultures by{" "}
+        <span className="font-medium">learning new languages</span>. I am currently improving my{" "}
+        <span className="font-medium">Spanish and exploring Dutch</span>. These hobbies keep me curious and adaptable—qualities that resonate in my professional approach.
       </p>
+
     </motion.section>
   );
 }
