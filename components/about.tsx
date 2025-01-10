@@ -19,18 +19,12 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After earning a degree in{" "}
-        <span className="font-medium">Computer Engineering</span> from the University at Buffalo in 2019, I developed a deep passion for{" "}
-        <span className="font-medium">solving complex data challenges</span>. My academic journey and professional experience have equipped me with expertise in{" "}
-        <span className="font-medium">cloud computing, data pipeline optimization, and scalable data architecture using technologies like AWS and Python</span>.{" "}
-        <span className="italic">My favorite part of data engineering</span> is the problem-solving aspect. I{" "}
-        <span className="underline">thrive</span> on designing efficient ETL workflows and implementing real-time analytics solutions.
+        I earned my degree in <span className="font-medium">Computer Engineering</span> from the University at Buffalo in 2019, where I discovered a strong passion for <span className="font-medium">solving complex data challenges</span>. My academic background and professional experience have equipped me with expertise in <span className="font-medium">cloud computing, data pipeline optimization, and scalable data architecture</span> using technologies like AWS and Python. <span className="italic">What excites me most about data engineering</span> is the problem-solving process—I <span className="underline">excel</span> at designing efficient ETL workflows and building real-time analytics solutions that drive business insights.
       </p>
       <p>
-        <span className="italic">When I'm not working</span>, I enjoy boxing, understanding music theory to play guitar and piano, and immersing myself in diverse cultures by{" "}
-        <span className="font-medium">learning new languages</span>. I am currently improving my{" "}
-        <span className="font-medium">Spanish and exploring Dutch</span>. These hobbies keep me curious and adaptable—qualities that resonate in my professional approach.
+        <span className="italic">Outside of work</span>, I’m passionate about boxing, exploring music theory to play guitar and piano, and embracing different cultures through <span className="font-medium">language learning</span>. I’m currently improving my <span className="font-medium">Spanish</span> and starting to explore <span className="font-medium">Dutch</span>. These interests foster curiosity and adaptability—qualities that I bring into every project I tackle.
       </p>
+
 
     </motion.section>
   );
